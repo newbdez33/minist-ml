@@ -1,8 +1,16 @@
-# Run Jupyter Notebook
+# MNIST Deep Learning Exercise
 
 Chinese version: see [README.zh.md](README.zh.md)
 
 This guide explains how to launch Jupyter in this project and run `1/01_mnist.ipynb` step by step, including CUDA acceleration and WSL (Linux) setup with compilation.
+
+## About MNIST Dataset
+- MNIST is a classic dataset of handwritten digits (0–9) widely used as a “Hello World” exercise in deep learning.
+- Each image is 28×28 grayscale; the dataset contains 60,000 training and 10,000 test samples.
+- It is typically used to train and evaluate classification models that map images to digit labels.
+- Official page and resources:
+  - MNIST original page (Yann LeCun): http://yann.lecun.com/exdb/mnist/
+  - Torchvision MNIST docs: https://pytorch.org/vision/stable/generated/torchvision.datasets.MNIST.html
 
 ## Prerequisites
 - Python installed (recommended 3.12)

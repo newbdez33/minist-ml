@@ -1,7 +1,15 @@
-# 启动与运行 Jupyter Notebook
-（English version: see [README.en.md](README.en.md)）
+# MNIST 深度学习练习
+（English version: see [README.md](README.md)）
 
 本文档介绍如何在本项目中启动 Jupyter 网页，并一步一步运行文件夹 `1` 里的 `01_mnist.ipynb`。
+
+## 关于 MNIST 数据集
+- MNIST 是一个经典的手写体数字数据集（0–9），常被用作深度学习的“Hello World”练习。
+- 每张图像为 28×28 的灰度图；数据集包含 60,000 张训练图与 10,000 张测试图。
+- 常用于训练与评估将图像映射到数字标签的分类模型。
+- 官方页面与资料：
+  - MNIST 原始页面（Yann LeCun）：http://yann.lecun.com/exdb/mnist/
+  - Torchvision MNIST 文档：https://pytorch.org/vision/stable/generated/torchvision.datasets.MNIST.html
 
 ## 前置条件
 - 已安装 Python（建议 3.12）
