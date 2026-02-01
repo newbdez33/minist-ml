@@ -1,0 +1,11 @@
+1/01_mnist_cuda_executed.html
+1/01_mnist_wsl_compile.html
+1/data/MNIST/
+.venv/
+.venv-wsl/
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
